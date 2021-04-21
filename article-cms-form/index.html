@@ -1,0 +1,102 @@
+<div title="CMS Form" class="article-inline">
+  <div contenteditable="true">
+    <h1 class="display">Display</h1>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h4 class="small">H4 Small</h4>
+    <p class="eyebrow">Eyebrow</p>
+    <p>Paragraph— <a href="#">Enim tortor at auctor urna nunc id cursus</a> metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque.</p>
+    <p class="intro">Paragraph Intro — <a href="#">Enim tortor at auctor urna nunc id cursus</a> metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque.</p>
+    <p class="intro-s">Paragraph Intro Small — <a href="#">Enim tortor at auctor urna nunc id cursus</a> metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque.</p>
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+    </ul>
+    <p><a href="#" class="button">View all insights</a></p>
+    <p><a href="#" class="button button--play">See our commitment</a></p>
+    <p><a href="#" class="icon-button">See all work</a></p>
+    <blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum bibendum tellus non porta. Ut eget leo eu metus facilisis vestibulum vel laoreet libero. Fusce laoreet est non lobortis efficitur. Curabitur ex urna, vulputate sed luctus ut, imperdiet quis quam. Aliquam erat volutpat. Vivamus quis dui nulla.</p>
+      <p class="quote-footer"><strong>Person</strong><br />Title</p>
+    </blockquote>
+  </div>
+
+  <form class="inline-form" id="cms-calc" action="/Default.asp?pageid=263">
+    <fieldset>
+    <legend>1. How complex is your site?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="no-complexity" type="radio" name="complexity" required="required" value="[-9999,-1,-1,-9999,-9999,2]"/><label for="no-complexity">It's a personal blog/website, so not very complex.</label></div>
+    <div class="answer-group"><input id="simple-complexity" type="radio" name="complexity" value="[-1,1,0,0,-1,1]"/><label for="simple-complexity">My website is for a business but it's a simple site with no add-ons or special integrations.</label></div>
+    <div class="answer-group"><input id="somewhat-complexity" type="radio" name="complexity" value="[1,0,1,2,1,-1]"/><label for="somewhat-complexity">My business site is somewhat complex with integrations and automations needed.</label></div>
+    <div class="answer-group"><input id="high-complexity" type="radio" name="complexity" value="[2,-1,0,1,2,-2]"/><label for="high-complexity">My site is complex with lots of customization and integrations.</label></div>
+    <div><label for="complexity" class="error"></label></div>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>2. Which best describes your budget for your website?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="shoestring-budget" type="radio" name="budget" required="required" value="[-9999,1,1,0,-9999,2]"/><label for="shoestring-budget">I'm on a shoestring budget.</label></div>
+    <div class="answer-group"><input id="some-budget" type="radio" name="budget" value="[-1,1,1,1,-1,1]"/><label for="some-budget">I've got some budget but need to keep costs down.</label></div>
+    <div class="answer-group"><input id="flexible-budget" type="radio" name="budget" value="[0,1,1,1,0,0]"/><label for="flexible-budget">I'm fairly flexible with my budget.</label></div>
+    <div class="answer-group"><input id="noBounds-budget" type="radio" name="budget" value="[1,1,0,0,1,-1]"/><label for="noBounds-budget">Money is no object, I just need something that fits my needs.</label></div>
+    <div class="answer-group"><label for="budget" class="error"></label></div>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>3. How quickly do you need the site live?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="quickest-liveDate" type="radio" name="live-date" required="required" value="[-9999,-1,-1,-1,-9999,1]"/><label for="quickest-liveDate">Less than a month</label></div>
+    <div class="answer-group"><input id="oneToThree-liveDate" type="radio" name="live-date" value="[-9999,1,1,1,-9999,2]"/><label for="oneToThree-liveDate">1 month - 3 months</label></div>
+    <div class="answer-group"><input id="threeToSix-liveDate" type="radio" name="live-date" value="[1,2,2,2,1,1]"/><label for="threeToSix-liveDate">3 - 6 months</label></div>
+    <div class="answer-group"><input id="sixPlus-liveDate" type="radio" name="live-date" value="[2,1,1,2,2,0]"/><label for="sixPlus-liveDate">6+ months (I'm not worried about time)</label></div>
+    <div class="answer-group"><label for="live-date" class="error"></label></div>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>4. Which statement best describes the level of technical expertise you have access to?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="no-expertise" type="radio" name="expertise" required="required" value="[-1,1,1,2,-1,1]"/><label for="no-expertise">I'm a team of one and I have little to no access to developers or technical experts.</label></div>
+    <div class="answer-group"><input id="little-expertise" type="radio" name="expertise" value="[-1,1,1,2,-1,0]"/><label for="little-expertise">I know a little bit of HTML but just the basics.</label></div>
+    <div class="answer-group"><input id="comfortable-expertise" type="radio" name="expertise" value="[0,0,1,1,0,0]"/><label for="comfortable-expertise">I'm pretty technical and comfortable working in HTML and troubleshooting problems.</label></div>
+    <div class="answer-group"><input id="dedicated-expertise" type="radio" name="expertise" value="[2,0,0,1,2,0]"/><label for="dedicated-expertise">I have dedicated development help in-house that can help me manage my website.</label></div>
+    <div class="answer-group"><label for="expertise" class="error"></label></div>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>5. Do you prefer to be open source or proprietary software?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="open-privacy" type="radio" name="privacy" required="required" value="[-9999,2,2,-9999,-9999,2]"/><label for="open-privacy">Must be Open-Source</label></div>
+    <div class="answer-group"><input id="preferOpen-privacy" type="radio" name="privacy" value="[-1,1,1,0,-1,1]"/><label for="preferOpen-privacy">Prefer Open-Source</label></div>
+    <div class="answer-group"><input id="noPrefOpen-privacy" type="radio" name="privacy" value="[0,0,0,0,0,0]"/><label for="noPrefOpen-privacy">No preference</label></div>
+    <div class="answer-group"><input id="preferProp-privacy" type="radio" name="privacy" value="[1,-1,-1,1,1,-1]"/><label for="preferProp-privacy">Prefer Proprietary</label></div>
+    <div class="answer-group"><input id="reqProp-privacy" type="radio" name="privacy" value="[2,-9999,-9999,2,2,-9999]"/><label for="reqProp-privacy">Must be Proprietary</label></div>
+    <div class="answer-group"><label for="privacy" class="error"></label></div>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>6. How important is security to your site?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="basic-security" type="radio" name="security" required="required" value="[1,1,0,1,1,-1]"/><label for="basic-security">Not very. I need a basic level of security but nothing more.</label></div>
+    <div class="answer-group"><input id="somewhat-security" type="radio" name="security" value="[1,0,-1,2,1,-2]"/><label for="somewhat-security">Somewhat. My site houses some sensitive information.</label></div>
+    <div class="answer-group"><input id="very-security" type="radio" name="security" value="[1,0,-1,2,1,-2]"/><label for="very-security">Very. My site houses lots of sensitive information so it's paramount that my site is impervious to hacks.</label></div>
+    <div class="answer-group"><label for="security" class="error"></label></div>
+    </div>
+    </fieldset>
+    <fieldset>
+    <legend>7. Approximately how many visitors do you get to your site each month?</legend>
+    <div class="radio-group">
+    <div class="answer-group"><input id="fewest-visitors" type="radio" name="visitors" required="required" value="[-9999,0,0,0,-9999,1]"/><label for="fewest-visitors">1 - 1,000</label></div>
+    <div class="answer-group"><input id="few-visitors" type="radio" name="visitors" value="[-2,0,0,1,-2,0]"/><label for="few-visitors">1,000 - 10,000</label></div>
+    <div class="answer-group"><input id="more-visitors" type="radio" name="visitors" value="[1,1,1,2,1,-1]"/><label for="more-visitors">10,000 - 100,000</label></div>
+    <div class="answer-group"><input id="most-visitors" type="radio" name="visitors" value="[2,1,1,2,2,-9999]"/><label for="most-visitors">100,000 or more</label></div>
+    <div class="answer-group"><input id="unsure-visitors" type="radio" name="visitors" value="[0,0,0,0,0,0]"/><label for="unsure-visitors">Not sure</label></div>
+    <div class="answer-group"><label for="visitors" class="error"></label></div>
+    </div>
+    </fieldset>
+    <div class="actions" id="cms-submit"><button type="submit" class="button primary large">Find My CMS</button></div>
+    </form>
+</div>

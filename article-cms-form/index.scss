@@ -1,0 +1,146 @@
+//Calculator Page
+
+#cms-calc {
+  legend{
+    margin-bottom: 10px;
+
+    font-size: 22px;
+  }
+
+  input{
+    float: left;
+
+    margin-top: 5.2px;
+    margin-right: 8px;
+  }
+}
+
+.answer-group{
+  display: flex;
+
+  margin-left: 18px;
+
+  label{
+    margin-left: 5px;
+  }
+}
+
+//Results Page
+
+.one-winner{
+  display: none;
+}
+
+.tie-winners{
+  display: none;
+}
+
+div.page-container div[class^=col-] div.tieCMSName h3{
+  margin-top: 1.75em;
+}
+
+h1.one-winner{
+  margin-bottom: 1em;
+}
+
+h1.tie-winners{
+  margin-bottom: 2em;
+}
+
+.one-winner img{
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+
+.tie-winners img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Aem-paragraph{
+  display: none;
+}
+
+#Drupal-paragraph{
+  display: none;
+}
+
+#Joomla-paragraph{
+  display: none;
+}
+
+#SAM-paragraph{
+  display: none;
+}
+
+#Sitecore-paragraph{
+  display: none;
+}
+
+#Wordpress-paragraph{
+  display: none;
+}
+
+.samadmin .one-winner{
+  display: block;
+}
+
+.samadmin .tie-winners{
+  display: block;
+}
+
+.samadmin #Aem-paragraph{
+  display: inline;
+}
+
+.samadmin #Drupal-paragraph{
+  display: inline;
+}
+
+.samadmin #Joomla-paragraph{
+  display: inline;
+}
+
+.samadmin #SAM-paragraph{
+  display: inline;
+}
+
+.samadmin #Sitecore-paragraph{
+  display: inline;
+}
+
+.samadmin #Wordpress-paragraph{
+  display: inline;
+}
+
+#cms-submit{
+  margin-left: 15px;
+
+  input{
+    padding: 12px;
+  }
+}
+
+.one-winner{
+  margin-bottom: 15px;
+}
+
+.tie-winners{
+  margin-top: 22px;
+}
+
+.SAM-winner-button{
+  background-color: #000;
+  color: #fff;
+  padding: 1em 1.5em .9em 1.5em;
+  font-size: 1em;
+  font-weight: 800;
+
+  &:hover{
+    background-color: #177db3;
+    -webkist-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+}
